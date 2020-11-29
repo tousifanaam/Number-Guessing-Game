@@ -1,5 +1,7 @@
 #!/bin/bash
 clear
+
+# The random number $(seq 1 100)
 a=$((1 + $RANDOM % 100))
 
 manual () {
