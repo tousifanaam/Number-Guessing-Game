@@ -7,7 +7,7 @@ a=$((1 + $RANDOM % 100))
 manual () {
 n=0; failure=0
 while [ $n -eq 0 ];do
-	read -p $'I am have a number between 1 and 100.\nCan you guess the number?\nYou have as many attempts you need.\nThe shortest amounts of guesses required to predict is what matters.\n\nEnter your guess:  >  '  guess
+	read -p $'I am having a number between 1 and 100.\nCan you guess the number?\nYou have as many attempts you need.\nThe shortest amounts of guesses required to predict is what matters.\n\nEnter your guess:  >  '  guess
 	if [ $guess = $a ];then
 		b=$(($failure+1))
 		echo -e "\nCorrect guess!. No. of attempts taken: $b"
