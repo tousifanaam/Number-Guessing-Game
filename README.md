@@ -1,4 +1,4 @@
 # How to use
-- use argument "-a" for atomatic guessing with less attempts.
-- use argument "-t" for automatic guessing with maximum possible attempts.
-- use argument "-m" to play yourself
+- use argument "-a" for automatic guessing using binary search.
+- use argument "-t" for automatic guessing using most basic way.
+- use argument "-m" for manual -> to play yourself
